@@ -1,0 +1,23 @@
+{
+    "name": "serhii/swoole-research",
+    "authors": [
+        {
+            "name": "Kasianchuk Serhii",
+            "email": "srg.kas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-swoole": ">=4.4",
+        "guzzlehttp/guzzle": "^6.5",
+        "yurunsoft/guzzle-swoole": "~2.0"
+    },
+    "require-dev": {
+        "swoft/swoole-ide-helper": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwooleResearch\\": "src/"
+        }
+    }
+}
